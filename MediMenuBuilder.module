@@ -11,10 +11,10 @@ class MediMenuBuilder extends WireData implements Module
         return array(
             'title' => 'Mediamus Menu Builder',
             'summary' => 'A little Menu Builder for Processwire made by Mediamus.',
-            'version' => '0.0.1',
+            'version' => '0.1.0',
             'author' => 'Mediamus',
             'icon' => 'codepen',
-            'href' => 'https://www.mediamus.de/',
+            'href' => 'https://github.com/mediamusGmbH/mediMenuBuilder/',
             'singular' => true,
             'autoload' => true,
             'requires' => array(
