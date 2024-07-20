@@ -8,7 +8,7 @@ class MediMenuBuilder extends WireData implements Module
 {
     public static function getModuleInfo()
     {
-        return array(
+        return [
             'title' => 'Mediamus Menu Builder',
             'summary' => 'A little Menu Builder for Processwire made by Mediamus.',
             'version' => '0.1.0',
@@ -22,7 +22,7 @@ class MediMenuBuilder extends WireData implements Module
                 'PHP>=8.0.0',
                 'FieldtypeRepeaterMatrix>=0.0.9'
             ),
-        );
+        ];
     }
 
     /**
